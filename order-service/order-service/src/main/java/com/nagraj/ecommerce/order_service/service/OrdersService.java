@@ -20,7 +20,7 @@ public class OrdersService {
 
     private final OrdersRepository ordersRepository;
     private final ModelMapper modelMapper;
-    private final .InventoryOpenFeignClient inventoryOpenFeignClient;
+    private final InventoryOpenFeignClient inventoryOpenFeignClient;
 
     public List<OrderRequestDto> getAllOrders(){
         log.info("Fetching all orders");
