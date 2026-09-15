@@ -1,5 +1,5 @@
 package com.nagraj.ecommerce.order_service.entiry;
 
 public enum OrderStatus {
-    CONFIRMED, CANCELLED,PENDING
+    CONFIRMED, CANCELLED,PENDING,DELIVERED
 }
